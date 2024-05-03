@@ -10,4 +10,5 @@ export class Categorias {
     @IsNotEmpty()
     @Column({ length: 255, nullable: false })
     tipo: string
+    produtos: any;
 }
